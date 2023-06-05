@@ -1,21 +1,55 @@
-.App{
-  display: flex;
-  justify-content: center;
-}
-.table{
+form{
+  display: grid;
+  place-content: center;
 
+}
+
+/** Table Page*/
+
+.table{
+  border-radius: 10px;
+  margin:0 auto;
+  padding: 5px;
   display: flex;
   justify-content: center;
 }
-.table-column{
-  border: 1px solid black;
-  margin: 5px;
+
+.table__column{
+  text-align: center;
+  border: 1px solid palevioletred;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
 }
-.table-row{
-  border: 1px solid black;
+
+#firstName, #lastName, #phoneNumber{
   margin: 5px;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid palevioletred;
 }
+
 .add{
+ 
   display: flex;
   justify-content: center;
+}
+
+.add__button{
+  height: 20px;
+  background-color: palevioletred;
+  margin-bottom: 20px;
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius:10px;
+}
+.delete__row{
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+  font-variant: small-caps;  
+  font-weight: bold;
+  height: 40px;
+  font-size: 20px;
 }
